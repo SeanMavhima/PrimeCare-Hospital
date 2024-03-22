@@ -1,0 +1,170 @@
+h1{
+    border-bottom: 0.3px solid #428bca;
+}
+body{
+  background-color: #f9f9f9;
+}
+h3, p, h3, h5{
+    margin-left: 230px;
+}
+form, h2{
+    margin-left: 360px;
+}
+.appointment{
+    text-align: center;
+    padding: 12px;
+   
+}
+ul{
+  margin-left: 230px;
+}
+    
+.middle{
+    border: 1px;
+    height: 400px;
+    margin-top: 1px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 250px;
+    text-align: center;
+    color: #428bca;
+    font-size: 40px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("../WEB DEV/Images/home2.jpg");
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #428bca;
+    color: white;
+    text-align: center;
+ }
+	
+   div.sidebar {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.sidebar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.sidebar a:hover {
+    background-color: #428bca;
+  }
+  .sidebar a.active {
+    background-color: #428bca;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  /* Form */
+  .appointment {
+   top:0px;
+   bottom: 50px;
+   background-color:rgb(243, 239, 239) ;
+    width: 70%;
+    
+    }
+    .appointment label {
+    font-size: 20px;
+    margin: 15px 0;
+    }
+    .appointment input {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 95%;
+    height: 15px;
+    border: 0;
+    border-radius: 6px;
+    outline: none;
+    
+    }
+    .appointment button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color:#42ca52;
+    
+    }
+    .appointment button:hover {
+    color:red;
+    }
+    header {
+        background-color:#428bca;
+        color: #fff;
+        padding: 20px;
+        height: 30px;
+        text-align: center;
+      }
+
+      /* CONTACT PAGE */
+      .contact-form {
+        border-radius: 10px 20px 10px 20px;
+        border: 9px solid #428bca;
+        margin-left: 230px;
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .contact-form label {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+  
+      .contact-form input,
+      .contact-form textarea {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+  
+      .contact-form button {
+        padding: 10px 20px;
+        background-color: #3213e1;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      h5{
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+  
+  
